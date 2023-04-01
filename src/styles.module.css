@@ -1,0 +1,11 @@
+.textCenter {
+  text-align: center;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+img:hover {
+  filter: brightness(110%);
+}
