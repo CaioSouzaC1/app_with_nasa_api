@@ -10,9 +10,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
-main h1 {
+main h2 {
   color: #ffffff;
-  margin-top: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding: 0 2em;
 }
 
 main h2,
@@ -30,4 +32,21 @@ img {
 }
 img:hover {
   filter: brightness(110%);
+}
+
+.fakeForm {
+  width: 90%;
+  margin: 1em auto 2em auto;
+}
+.fakeForm h3 {
+  margin-bottom: 0.5em;
+}
+
+svg {
+  max-width: 40px;
+  margin: 20px 0;
+}
+
+label {
+  margin-top: 1em;
 }
